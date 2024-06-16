@@ -42,3 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   });
 });
+
+setTimeout((x) => {
+  console.log("End of the page");
+},1000};
