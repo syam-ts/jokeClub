@@ -55,4 +55,6 @@ function setJokeSpan(joke) {
       console.log("Both are same value")
     }, 4000);
   }
-}
+};
+
+

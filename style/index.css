@@ -4,3 +4,9 @@
 .play:hover{
   color:rgb(0, 200, 255)
 }
+
+#body{
+    color:white;
+    text-align: center;
+    background-color: green;
+}
