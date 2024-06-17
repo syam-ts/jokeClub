@@ -58,3 +58,55 @@ function setJokeSpan(joke) {
 };
 
 
+
+interface IJoke {
+  id: number;
+  joke: string;
+  category: string;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+class JokeOfToday {
+  private joke: IJoke;
+
+  constructor(joke: IJoke) {
+    this.joke = joke;
+  }
+
+  public getJoke(): IJoke {
+    return this.joke;
+  }
+
+  public setJoke(joke: IJoke): void {
+    this.joke = joke;
+  }
+
+  public displayJoke(): void {
+    console.log(`Joke of the day: ${this.joke.joke}`);
+  }
+}
+
+class JokeComponent {
+  private jokeOfToday: JokeOfToday;
+
+  constructor(jokeOfToday: JokeOfToday) {
+    this.jokeOfToday = jokeOfToday;
+  }
+
+  public render(): void {
+    const jokeElement = document.getElementById('joke');
+    jokeElement!.innerHTML = this.jokeOfToday.getJoke().joke;
+  }
+}
+
+const jokeOfToday = new JokeOfToday({
+  id: 1,
+  joke: 'Why don\'t scientists trust atoms?',
+  category: 'chemistry',
+  createdAt: new Date(),
+  updatedAt: new Date(),
+});
+
+const jokeComponent = new JokeComponent(jokeOfToday);
+jokeComponent.render();
