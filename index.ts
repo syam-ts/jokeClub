@@ -45,4 +45,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 setTimeout((x) => {
   console.log("End of the page");
-},1000};
+},1000);
+
+function setJokeSpan(joke) {
+  let newJoke = joke;
+  if(joke) {
+    setTimeout(() => {
+      newJoke += joke;
+      console.log("Both are same value")
+    }, 4000);
+  }
+}
