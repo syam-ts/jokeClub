@@ -70,3 +70,14 @@
     border-radius: 28px;
     box-shadow: 0 0 28px rgba(255, 165, 0, 0.5);
   }
+  .six {
+    background-color: magenta;
+    color: white;
+    font-size: 26px;
+    font-family: Impact, sans-serif;
+    text-align: left;
+    padding: 18px;
+    border: 2px solid orange;
+    border-radius: 28px;
+    box-shadow: 0 0 28px rgba(255, 165, 0, 0.5);
+  }
