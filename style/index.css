@@ -10,3 +10,63 @@
     text-align: center;
     background-color: green;
 }
+
+.one {
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .two {
+    background-color: aquamarine;
+    color: black;
+    font-size: 18px;
+    font-family: Times New Roman, serif;
+    text-align: left;
+    padding: 15px;
+    border: 2px dashed red;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+  }
+  
+  .three {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 30px;
+    font-family: Courier, monospace;
+    text-align: right;
+    padding: 25px;
+    border: 3px solid green;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 255, 0, 0.5);
+  }
+  
+  .four {
+    background-color: yellow;
+    color: black;
+    font-size: 22px;
+    font-family: Comic Sans MS, cursive;
+    text-align: center;
+    padding: 20px;
+    border: 1px dotted blue;
+    border-radius: 25px;
+    box-shadow: 0 0 25px rgba(255, 255, 0, 0.5);
+  }
+  
+  .five {
+    background-color: magenta;
+    color: white;
+    font-size: 26px;
+    font-family: Impact, sans-serif;
+    text-align: left;
+    padding: 18px;
+    border: 2px solid orange;
+    border-radius: 28px;
+    box-shadow: 0 0 28px rgba(255, 165, 0, 0.5);
+  }
